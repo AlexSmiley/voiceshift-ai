@@ -2,6 +2,8 @@
 
 Real-time microphone voice changer for the browser and Android. This is a **DSP MVP**, not yet a trained neural voice conversion system.
 
+**Live demo:** [https://voiceshift-ai.vercel.app/](https://voiceshift-ai.vercel.app/)
+
 ## Web
 
 Run `python -m http.server 8000 --directory web` from the repository root and open http://localhost:8000. Grant microphone permission, choose an effect, and use headphones to prevent feedback. HTTPS is required outside localhost. Browser recording uses the available MediaRecorder format (usually WebM or MP4), **not WAV**.
